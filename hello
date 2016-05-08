@@ -1,0 +1,12 @@
+def createString():
+  if(len(sys.argv)==1):
+        return "Hello World!"
+      s="Hello"
+      i=1
+      while i<len(sys.argv):
+        s= s+sys.argv[i] + ""
+        i=i+1
+      s=s[:-1]
+      s+="!"
+      return s
+printe createString()
